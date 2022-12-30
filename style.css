@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: #fff;
+    height: 80px;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.global-nav .nav{
+    position: relative;
+    margin: 0 auto;
+    background: black;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+
+}
+
+.nav .left{
+    display: flex;
+    align-items: center;
+}
+
+.right .items{
+    display: flex;
+}
+
+.right .items .nav-item{
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.right .items .nav-item a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+section{
+    padding-top: 5rem;
+}
+
+#home{
+    background-color: black;
+    color: #fff;
+}
+
+
+#head h1{
+    animation: fade 5s ease 2s infinite normal;
+}
+
+@keyframes fade{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+.container .row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+#about{
+    background-color: aliceblue;
+    padding-left: 50px;
+}
+
+.abo .row{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-right: 20px;
+}
+#firstimg{
+    padding-right: 100px;
+}
+
+.ser .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ser .row img{
+    width: 20vw;
+    height: 50vh;
+}
+.about-img img{
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 50px;
+    height: 50vh;
+    width: 60vh;
+}
+
+.about-textt{
+    color: black;
+}
+
+#service{
+    color: black;
+    padding: 2rem;
+}
+
+#know{
+    background-color: aliceblue;
+}
+
+.card-text{
+    color: black;
+}
+
+#con{
+    color: aliceblue;
+    text-align: center;
+}
+
+#contact{
+    background-color: black;
+}
+
+
+.card:hover{
+    background-color: black;
+}
+.card a{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover p{
+    color: aliceblue;
+}
+
+.card-body .card-text{
+    width: 35w;
+}
+
+#about{
+    display: flex;
+}
+
+.form-group input{
+    width: 900px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: black;
+    color: #fff;
+}
+
+#bttn{
+    background-color: aliceblue;
+    color: black;
+    width: 140px;
+    height: 35px;
+    margin-left: 300px;
+}
+
+@media (max-width: 1024px) {
+    .global-nav .nav{
+        display: block;
+    
+    }
+
+    .container .row{
+        display: block;
+    }
+
+    .abo .row{
+        display: block;
+    }
+
+    .ser .row{
+        display: block;
+    }
+}
+
